@@ -1,0 +1,24 @@
+# Site settings
+title: Coding Hour
+header-img: img/home-bg.jpg
+email: haidermalik504@gmail.com
+copyright_name: Your/Project/Corporate Name
+description: "How to develop Web App using MEAN Stack Nodejs, Angular 2, Express js, Sails Js, Mongodb"
+url: "http://yourdomain.com"
+twitter_username: haidermalik504
+github_username:  HaiderMalik12
+facebook_username:  haider.malik098
+email_username:  haidermalik504@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
